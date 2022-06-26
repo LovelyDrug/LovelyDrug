@@ -52,7 +52,7 @@
 | ⬜ FRP (Functional-reactive)   | 🟩 Interface          | 🟦 Generator         |                          |
 | 🟦 Automata-based programming  | 🟩 Encapsulation      | 🟦 Iterator          |                          |
 | 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟦 Async Iterator    |                          |
-| 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
+| 🟩 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
 | ⬜ Metaprogramming             | 🟦 instance           |                      |                          |
 | ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
 |                                | ⬜ Reflection         |                      |                          |
