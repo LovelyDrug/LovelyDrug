@@ -2,6 +2,7 @@
 <code>👷 Speciality: Software engineer / FrontEnd</code><br>
 <code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code>
+<code>💻 [CodeWars](https://www.codewars.com/users/LovelyDrug)</code>
 <code>📢 [Public talks: 0](TALKS.md)</code>
 <code>👀 [Open-source contribution](CONTRIBUTION.md)</code><br>
 <code>🧑‍💻 Languages: JavaScript, C#</code>
