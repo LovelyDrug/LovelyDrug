@@ -7,11 +7,11 @@
 | Syntax               | Statements            | Functions             | Data structures     | Process & style      |
 |----------------------|-----------------------|-----------------------|---------------------|----------------------|
 | 🟩 value             | 🟩 if                 | 🟩 recursion          | 🟩 array            | 🟩 refactoring       |
-| 🟩 identifier        | 🟩 loops              | 🟩 function           | 🟦 instance         | 🟩 code review       |
+| 🟩 identifier        | 🟩 loops              | 🟩 function           | 🟩 instance         | 🟩 code review       |
 | 🟩 variable          | 🟩 assignment         | 🟩 return             | 🟩 object           | 🟦 antipatterns      |
-| 🟩 constant          | 🟩 prototype          | 🟩 signature          | 🟦 collection       | 🟩 paradigm          |
-| 🟩 scalar            | 🟩 class              | 🟩 argument           | 🟦 hash table       | 🟦 algorithm         |
-| 🟩 literal           | 🟩 while              | 🟩 parameter          | 🟦 linked list      | 🟩 magic numbers     |
+| 🟩 constant          | 🟩 prototype          | 🟩 signature          | 🟩 collection       | 🟩 paradigm          |
+| 🟩 scalar            | 🟩 class              | 🟩 argument           | 🟩 hash table       | 🟦 algorithm         |
+| 🟩 literal           | 🟩 while              | 🟩 parameter          | 🟩 linked list      | 🟩 magic numbers     |
 | 🟩 expression        | 🟩 do..while          | 🟩 pure function      | 🟦 queue            | 🟩 hardcode          |
 | 🟩 heap              | 🟩 for                | 🟩 lambda             | 🟦 stack            | 🟩 complexity        |
 | 🟩 type              | 🟩 for..in            | 🟩 side effects       | 🟦 deque            | 🟦 decomposition     |
@@ -40,11 +40,11 @@
 | 🟩 Imperative programming      | 🟩 new                | ⬜ Mutable state     |                          |
 | 🟩 Structured programming      | 🟩 Static method      | ⬜ Immutable state   |                          |
 | 🟩 Non-structured programming  | 🟩 Method             | ⬜ Enum              |                          |
-| 🟩 Functional programming      | 🟩 Async method       | 🟦 Linked list       |                          |
-| 🟦 Prototype-based programming | 🟩 Getters, Setters   | 🟦 Doubly list       |                          |
+| 🟩 Functional programming      | 🟩 Async method       | 🟩 Linked list       |                          |
+| 🟦 Prototype-based programming | 🟩 Getters, Setters   | 🟩 Doubly list       |                          |
 | 🟩 Object-oriented programming | 🟩 Public fields      | 🟦 Unrolled list     |                          |
-| ⬜ Object-based programming    | 🟩 Private fields     | 🟦 Circular list     |                          |
-| 🟦 Generic programming         | 🟦 Field declarations | 🟦 Trees             |                          |
+| ⬜ Object-based programming    | 🟩 Private fields     | 🟩 Circular list     |                          |
+| 🟦 Generic programming         | 🟩 Field declarations | 🟦 Trees             |                          |
 | 🟦 Concurrent computing        | 🟩 Inheritance        | 🟦 Graphs            |                          |
 | 🟦 Asyncronous programming     | 🟩 Parent class       | 🟦 Functor           |                          |
 | 🟦 Parallel programming        | 🟩 Polymorphism       | 🟦 Functional object |                          |
@@ -53,7 +53,7 @@
 | 🟦 Automata-based programming  | 🟩 Encapsulation      | 🟦 Iterator          |                          |
 | 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟦 Async Iterator    |                          |
 | 🟩 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
-| ⬜ Metaprogramming             | 🟦 instance           |                      |                          |
+| ⬜ Metaprogramming             | 🟩 instance           |                      |                          |
 | ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
 |                                | ⬜ Reflection         |                      |                          |
 
@@ -63,7 +63,7 @@
 |------------------------|--------------------------------|---------------------|--------------------------|
 | 🟦 Callback-last       | 🟦 Timers                      | 🟦 Event Loop       | ⬜ async.js library      |
 | 🟦 Error-first         | 🟦 setImmediate                | 🟦 Async error      | ⬜ Async composition     |
-| 🟦 Promise             | 🟦 nextTick                    | 🟦 try..catch       | ⬜ Rx.js                 |
+| 🟩 Promise             | 🟦 nextTick                    | 🟦 try..catch       | ⬜ Rx.js                 |
 | 🟦 Async function      | ⬜ AbortController             | 🟦 Non-blocking     | 🟦 Sequential async      |
 | 🟦 await               | 🟦 Promise unhandled rejection | 🟦 Async I/O        | 🟦 Parallel async        |
 | 🟦 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟦 Promise.all           |
@@ -85,7 +85,7 @@
 
 | Internals            | Theory                       | Network           | Technique        | Problems             |
 |----------------------|------------------------------|-------------------|------------------|----------------------|
-| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟦 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
+| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟩 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
 | 🟦 Event Loop        | 🟦 CPU bound tasks           | 🟦 TCP/SSL        | 🟦 Testing       | 🟦 Resource leaks    |
 | 🟦 commonjs          | 🟦 Memory bound tasks        | 🟦 UDP            | ⬜ CI/CD         | 🟦 Blocking code     |
 | 🟦 ECMA modules      | 🟦 Multilayer approach       | 🟦 TLS            | 🟦 Readable      | 🟦 Data race         |
